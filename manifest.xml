@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>ded5a9e6-7978-4043-9359-8b9cf8039c27</Id>
-  <Version>1.0.0.2</Version>
+  <Version>1.0.0.3</Version>
   <ProviderName>Aiir Technologies Ltd</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="aiir for Word"/>
-  <Description DefaultValue="Microsoft Word Add-In for the aiir platform."/>
-  <IconUrl DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/icon-64.png"/>
+  <DisplayName DefaultValue="Aiir for Word"/>
+  <Description DefaultValue="Microsoft Word Add-In for the Aiir platform."/>
+  <IconUrl DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
+  <HighResolutionIconUrl DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
   <SupportUrl DefaultValue="https://www.useaiir.com/help"/>
   <AppDomains>
     <AppDomain>https://www.useaiir.com</AppDomain>
@@ -62,9 +62,9 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/assets/aiir-icon-128.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
@@ -72,13 +72,13 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://black-pebble-0aec8cb03.5.azurestaticapps.net/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Get started with Aiir for Word!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="useaiir.com"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Show Taskpane"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Aiir for Word"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded succesfully. Go to the HOME tab and click the 'Show Taskpane' button to get started."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane"/>
+        <bt:String id="GetStarted.Description" DefaultValue="Aiir for Excel has loaded succesfully. Go to the HOME tab and click the 'Aiir for Word' button to get started."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open Aiir for Word"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
